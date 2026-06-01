@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     int n;
-    cout <<"Enter the number to fing largest prime factor : " ;
+    cout <<"Enter the number to find largest prime factor : " ;
     cin >> n;
     for(int i = n; i>=2;i--){
         bool isprime = true;

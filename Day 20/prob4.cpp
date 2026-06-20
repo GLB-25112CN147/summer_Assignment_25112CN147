@@ -12,9 +12,9 @@ int main()
     cin >> c;
     vector<vector<int>> mat(r, vector<int>(c));
     cout << "Enter the elements of matrix : " << endl;
-    for (int i = 0; i < r; i++)
+    for (int i = 0; i < c; i++)
     {
-        for (int j = 0; j < c; j++)
+        for (int j = 0; j < r; j++)
         {
             cin >> mat[i][j];
         }

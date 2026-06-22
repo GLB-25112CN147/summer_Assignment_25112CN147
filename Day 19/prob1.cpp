@@ -29,7 +29,7 @@ int main()
     cout << "the sum of matrices is : " << endl;
     for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < m; j++)
+        for (int j = 0; j<m; j++)
         {
             cout << arr1[i][j] + arr2[i][j] << " ";
         }

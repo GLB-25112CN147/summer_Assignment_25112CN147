@@ -18,7 +18,7 @@ int main()
                         {"What is 27*7", "1. 179", "2. 189", "3. 199", "4. 159", 2}};
     for (int i = 0; i < 3; i++)
     {
-        cout << "Question " << i << " : " << question[i].question << " (1-4)" << endl;
+        cout << "Question " << i+1 << " : " << question[i].question << " (1-4)" << endl;
         cout << question[i].opt1 << endl
              << question[i].opt2 << endl
              << question[i].opt3 << endl
